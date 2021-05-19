@@ -13,7 +13,7 @@ export default function App() {
             <BottomTabNavigator.Navigator tabBarOptions={{tabStyle: {justifyContent: 'center', alignItems: 'center'}}}>
                 <BottomTabNavigator.Screen name={'Users'} component={UsersComponent}/>
                 <BottomTabNavigator.Screen name={'Posts'} component={PostDrawer}/>
-                <BottomTabNavigator.Screen name={'Camera'} component={CameraComponent}/>
+                <BottomTabNavigator.Screen name={'Camera'} component={CameraComponent} options={{unmountOnBlur: true}}/>
             </BottomTabNavigator.Navigator>
 
         </NavigationContainer>
