@@ -4,7 +4,7 @@ import {View, Text, Button, TouchableOpacity, FlatList} from 'react-native';
 
 export const CameraComponent = () => {
     return <View>
-        <Text>CameraComponent page 123</Text>
+        <Text>CameraComponent page</Text>
     </View>;
 };
 
